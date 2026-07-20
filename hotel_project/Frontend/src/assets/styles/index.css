@@ -1,0 +1,108 @@
+@import "tailwindcss";
+
+/* ---------------------------------------------------------------
+   GLOBAL STYLES
+   Matches the prototype's look: banana-leaf bg, Inter body font,
+   no default margins/padding.
+------------------------------------------------------------------*/
+
+:root {
+  --color-bg: #FAF6EC;
+  --color-surface: #FFFFFF;
+  --color-surface-sunk: #F1EBDD;
+  --color-ink: #2B2A25;
+  --color-ink-soft: #6B6656;
+  --color-border: #E4DBC7;
+  --color-primary: #1F4D3A;
+  --color-primary-deep: #153629;
+  --color-primary-light: #2F6B4F;
+  --color-gold: #C9A227;
+  --color-kumkum: #A83232;
+  --color-amber: #C9852B;
+  --color-green: #2F8F5B;
+  --color-blue: #4C6FBF;
+  --font-display: 'Fraunces', serif;
+  --font-body: 'Inter', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: var(--font-body);
+  background: var(--color-bg);
+  color: var(--color-ink);
+  line-height: 1.5;
+  min-height: 100vh;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+/* Loading spinner animation */
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Responsive adjustments */
+@media (max-width: 1200px) {
+  .main-layout {
+    flex-direction: column;
+  }
+  .sidebar-container {
+    width: 100% !important;
+    min-height: auto !important;
+    flex-direction: row !important;
+    overflow-x: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .grid-cols-4 {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+  .grid-cols-5 {
+    grid-template-columns: repeat(3, 1fr) !important;
+  }
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-surface-sunk);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-border);
+  border-radius: 999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-ink-soft);
+}
+
+/* Button reset */
+button {
+  font-family: inherit;
+}
+
+/* Selection color */
+::selection {
+  background: var(--color-gold);
+  color: var(--color-primary-deep);
+}
