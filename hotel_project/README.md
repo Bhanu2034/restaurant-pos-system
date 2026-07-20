@@ -174,45 +174,52 @@ On first startup, the backend creates one administrator account using the `ADMIN
 <table>
   <tr>
     <td align="center" width="50%">
-      <img src="docs/screenshots/login.png" alt="Login screen" width="100%"><br>
+      <img src="docs/Project_pics/login.png" alt="Login screen" width="100%"><br>
       <sub><b>Login</b></sub>
     </td>
     <td align="center" width="50%">
-      <img src="docs/screenshots/dashboard.png" alt="Dashboard overview" width="100%"><br>
+      <img src="docs/Project_pics/dashboard.png" alt="Dashboard overview" width="100%"><br>
       <sub><b>Dashboard</b></sub>
     </td>
   </tr>
+
   <tr>
     <td align="center" width="50%">
-      <img src="docs/screenshots/tables-captain-order.png" alt="Tables and captain order screen" width="100%"><br>
+      <img src="docs/Project_pics/tables-captain-order.png" alt="Tables and captain order screen" width="100%"><br>
       <sub><b>Tables & Captain Order</b></sub>
     </td>
     <td align="center" width="50%">
-      <img src="docs/screenshots/takeaway.png" alt="Takeaway prepaid order screen" width="100%"><br>
+      <img src="docs/Project_pics/takeaway.png" alt="Takeaway prepaid order screen" width="100%"><br>
       <sub><b>Takeaway (Prepaid)</b></sub>
     </td>
   </tr>
+
   <tr>
     <td align="center" width="50%">
-      <img src="docs/screenshots/kitchen-display.png" alt="Kitchen Display System live order board" width="100%"><br>
+      <img src="docs/Project_pics/kitchen-display.png" alt="Kitchen Display System" width="100%"><br>
       <sub><b>Kitchen Display System</b></sub>
     </td>
     <td align="center" width="50%">
-      <img src="docs/screenshots/billing-pos.png" alt="Billing and point of sale screen" width="100%"><br>
+      <img src="docs/Project_pics/billing-pos.png" alt="Billing POS" width="100%"><br>
       <sub><b>Billing / POS</b></sub>
     </td>
   </tr>
+
   <tr>
     <td align="center" width="50%">
-      <img src="docs/screenshots/inventory.png" alt="Inventory management screen" width="100%"><br>
+      <img src="docs/Project_pics/inventory.png" alt="Inventory Management" width="100%"><br>
       <sub><b>Inventory Management</b></sub>
     </td>
     <td align="center" width="50%">
-      <img src="docs/screenshots/digital-menu.png" alt="Digital menu management screen" width="100%"><br>
+      <img src="docs/Project_pics/digital-menu.png" alt="Digital Menu Management" width="100%"><br>
       <sub><b>Digital Menu Management</b></sub>
     </td>
   </tr>
 </table>
+
+
+
+   
 
 ## Future Improvements
 
